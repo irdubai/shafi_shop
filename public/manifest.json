@@ -1,0 +1,90 @@
+{
+  "name": "سیستم حسابداری شافی",
+  "short_name": "شافی",
+  "description": "سیستم جامع حسابداری و مدیریت کسب و کار",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#764ba2",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop-dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    },
+    {
+      "src": "/screenshots/mobile-dashboard.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "platform": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "فاکتور جدید",
+      "short_name": "فاکتور",
+      "description": "ایجاد فاکتور جدید",
+      "url": "/invoices/new",
+      "icons": [
+        {
+          "src": "/icons/shortcut-invoice.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "مشتری جدید",
+      "short_name": "مشتری",
+      "description": "افزودن مشتری جدید",
+      "url": "/customers/new",
+      "icons": [
+        {
+          "src": "/icons/shortcut-customer.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "گزارش‌ها",
+      "short_name": "گزارش",
+      "description": "مشاهده گزارش‌های مالی",
+      "url": "/reports",
+      "icons": [
+        {
+          "src": "/icons/shortcut-reports.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
