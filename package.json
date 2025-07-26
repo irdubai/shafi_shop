@@ -1,0 +1,13 @@
+{
+  "name": "shafi-accounting",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "better-sqlite3": "^8.7.0"
+  }
+}
